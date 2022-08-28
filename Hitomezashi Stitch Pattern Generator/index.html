@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			let options = {
+  size: 20,
+  delay: 50
+}
+
+// Create canvas.
+const canvas = document.createElement('canvas');
+const ctx = canvas.getContext('2d');
+document.body.appendChild(canvas);
+// Set canvas to the size of the viewable window.
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let lines = [[],[]];
+let lineOffsets = [[],[]];
+const verticalLineCount = Math.ceil(canvas.width / options.size);
+const horizontalLineCount = Math.ceil(canvas.height / options.size);
+
+for (let i=0; i<verticalLineCount; i++) {
+  lines[1].push(0);
+  lineOffsets[1].push(Math.round(rand(0,1)));
+}
+for (let i=0; i<horizontalLineCount; i++) {
+  lines[0].push(0);
+  lineOffsets[0].push(Math.round(rand(0,1)));
+}
+
+ctx.beginPath();
+ctx.moveTo(0, 0);
+
+window.requestAnimationFrame(draw);
+
+let frame = 0;
+function draw () {
+  for (let i=1; i<lines[0].length; i++) {
+    const y = i * options.size;
+    ctx.moveTo(lines[0][i], y);
+
+    lines[0][i] += options.size;
+
+    if ((frame + lineOffsets[0][i]) % 2) {
+      ctx.lineTo(lines[0][i], y);
+    }
+  }
+
+  for (let i=1; i<lines[1].length; i++) {
+    const x = i * options.size;
+    ctx.moveTo(x, lines[1][i]);
+
+    lines[1][i] += options.size;
+
+    if ((frame + lineOffsets[1][i]) % 2) {
+      ctx.lineTo(x, lines[1][i]);
+    }
+  }
+  ctx.stroke();
+
+  frame++;
+  setTimeout(() => window.requestAnimationFrame(draw), options.delay);
+}
+
+
+function rand(min, max) {
+  return Math.random()*(max-min)+min;
+}
+		</script>
+	</body>
+</html>

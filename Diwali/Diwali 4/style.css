@@ -1,0 +1,2322 @@
+*
+{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+	font-family: 'poppins';
+}
+.boxs {
+  width: 7vh;
+  height: 7vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background: #ea9795;
+  border-radius: 50%;
+}
+
+.boxs div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ea9795;
+  border-radius: 50%;
+}
+
+.boxs .box-1 {
+  transform: rotate(51.42857deg) translateY(8.4vh);
+  -webkit-transform: rotate(51.42857deg) translateY(8.4vh);
+  -ms-transform: rotate(51.42857deg) translateY(8.4vh);
+  -moz-transform: rotate(51.42857deg) translateY(8.4vh);
+  -o-transform: rotate(51.42857deg) translateY(8.4vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-2 {
+  transform: rotate(102.85714deg) translateY(8.4vh);
+  -webkit-transform: rotate(102.85714deg) translateY(8.4vh);
+  -ms-transform: rotate(102.85714deg) translateY(8.4vh);
+  -moz-transform: rotate(102.85714deg) translateY(8.4vh);
+  -o-transform: rotate(102.85714deg) translateY(8.4vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-3 {
+  transform: rotate(154.28571deg) translateY(8.4vh);
+  -webkit-transform: rotate(154.28571deg) translateY(8.4vh);
+  -ms-transform: rotate(154.28571deg) translateY(8.4vh);
+  -moz-transform: rotate(154.28571deg) translateY(8.4vh);
+  -o-transform: rotate(154.28571deg) translateY(8.4vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-4 {
+  transform: rotate(205.71429deg) translateY(8.4vh);
+  -webkit-transform: rotate(205.71429deg) translateY(8.4vh);
+  -ms-transform: rotate(205.71429deg) translateY(8.4vh);
+  -moz-transform: rotate(205.71429deg) translateY(8.4vh);
+  -o-transform: rotate(205.71429deg) translateY(8.4vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-5 {
+  transform: rotate(257.14286deg) translateY(8.4vh);
+  -webkit-transform: rotate(257.14286deg) translateY(8.4vh);
+  -ms-transform: rotate(257.14286deg) translateY(8.4vh);
+  -moz-transform: rotate(257.14286deg) translateY(8.4vh);
+  -o-transform: rotate(257.14286deg) translateY(8.4vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-6 {
+  transform: rotate(308.57143deg) translateY(8.4vh);
+  -webkit-transform: rotate(308.57143deg) translateY(8.4vh);
+  -ms-transform: rotate(308.57143deg) translateY(8.4vh);
+  -moz-transform: rotate(308.57143deg) translateY(8.4vh);
+  -o-transform: rotate(308.57143deg) translateY(8.4vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-7 {
+  transform: rotate(360deg) translateY(8.4vh);
+  -webkit-transform: rotate(360deg) translateY(8.4vh);
+  -ms-transform: rotate(360deg) translateY(8.4vh);
+  -moz-transform: rotate(360deg) translateY(8.4vh);
+  -o-transform: rotate(360deg) translateY(8.4vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-8 {
+  transform: rotate(25.71429deg) translateY(16.8vh);
+  -webkit-transform: rotate(25.71429deg) translateY(16.8vh);
+  -ms-transform: rotate(25.71429deg) translateY(16.8vh);
+  -moz-transform: rotate(25.71429deg) translateY(16.8vh);
+  -o-transform: rotate(25.71429deg) translateY(16.8vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-9 {
+  transform: rotate(51.42857deg) translateY(16.8vh);
+  -webkit-transform: rotate(51.42857deg) translateY(16.8vh);
+  -ms-transform: rotate(51.42857deg) translateY(16.8vh);
+  -moz-transform: rotate(51.42857deg) translateY(16.8vh);
+  -o-transform: rotate(51.42857deg) translateY(16.8vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-10 {
+  transform: rotate(77.14286deg) translateY(16.8vh);
+  -webkit-transform: rotate(77.14286deg) translateY(16.8vh);
+  -ms-transform: rotate(77.14286deg) translateY(16.8vh);
+  -moz-transform: rotate(77.14286deg) translateY(16.8vh);
+  -o-transform: rotate(77.14286deg) translateY(16.8vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-11 {
+  transform: rotate(102.85714deg) translateY(16.8vh);
+  -webkit-transform: rotate(102.85714deg) translateY(16.8vh);
+  -ms-transform: rotate(102.85714deg) translateY(16.8vh);
+  -moz-transform: rotate(102.85714deg) translateY(16.8vh);
+  -o-transform: rotate(102.85714deg) translateY(16.8vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-12 {
+  transform: rotate(128.57143deg) translateY(16.8vh);
+  -webkit-transform: rotate(128.57143deg) translateY(16.8vh);
+  -ms-transform: rotate(128.57143deg) translateY(16.8vh);
+  -moz-transform: rotate(128.57143deg) translateY(16.8vh);
+  -o-transform: rotate(128.57143deg) translateY(16.8vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-13 {
+  transform: rotate(154.28571deg) translateY(16.8vh);
+  -webkit-transform: rotate(154.28571deg) translateY(16.8vh);
+  -ms-transform: rotate(154.28571deg) translateY(16.8vh);
+  -moz-transform: rotate(154.28571deg) translateY(16.8vh);
+  -o-transform: rotate(154.28571deg) translateY(16.8vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-14 {
+  transform: rotate(180deg) translateY(16.8vh);
+  -webkit-transform: rotate(180deg) translateY(16.8vh);
+  -ms-transform: rotate(180deg) translateY(16.8vh);
+  -moz-transform: rotate(180deg) translateY(16.8vh);
+  -o-transform: rotate(180deg) translateY(16.8vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-15 {
+  transform: rotate(205.71429deg) translateY(16.8vh);
+  -webkit-transform: rotate(205.71429deg) translateY(16.8vh);
+  -ms-transform: rotate(205.71429deg) translateY(16.8vh);
+  -moz-transform: rotate(205.71429deg) translateY(16.8vh);
+  -o-transform: rotate(205.71429deg) translateY(16.8vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-16 {
+  transform: rotate(231.42857deg) translateY(16.8vh);
+  -webkit-transform: rotate(231.42857deg) translateY(16.8vh);
+  -ms-transform: rotate(231.42857deg) translateY(16.8vh);
+  -moz-transform: rotate(231.42857deg) translateY(16.8vh);
+  -o-transform: rotate(231.42857deg) translateY(16.8vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-17 {
+  transform: rotate(257.14286deg) translateY(16.8vh);
+  -webkit-transform: rotate(257.14286deg) translateY(16.8vh);
+  -ms-transform: rotate(257.14286deg) translateY(16.8vh);
+  -moz-transform: rotate(257.14286deg) translateY(16.8vh);
+  -o-transform: rotate(257.14286deg) translateY(16.8vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-18 {
+  transform: rotate(282.85714deg) translateY(16.8vh);
+  -webkit-transform: rotate(282.85714deg) translateY(16.8vh);
+  -ms-transform: rotate(282.85714deg) translateY(16.8vh);
+  -moz-transform: rotate(282.85714deg) translateY(16.8vh);
+  -o-transform: rotate(282.85714deg) translateY(16.8vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-19 {
+  transform: rotate(308.57143deg) translateY(16.8vh);
+  -webkit-transform: rotate(308.57143deg) translateY(16.8vh);
+  -ms-transform: rotate(308.57143deg) translateY(16.8vh);
+  -moz-transform: rotate(308.57143deg) translateY(16.8vh);
+  -o-transform: rotate(308.57143deg) translateY(16.8vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-20 {
+  transform: rotate(334.28571deg) translateY(16.8vh);
+  -webkit-transform: rotate(334.28571deg) translateY(16.8vh);
+  -ms-transform: rotate(334.28571deg) translateY(16.8vh);
+  -moz-transform: rotate(334.28571deg) translateY(16.8vh);
+  -o-transform: rotate(334.28571deg) translateY(16.8vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-21 {
+  transform: rotate(360deg) translateY(16.8vh);
+  -webkit-transform: rotate(360deg) translateY(16.8vh);
+  -ms-transform: rotate(360deg) translateY(16.8vh);
+  -moz-transform: rotate(360deg) translateY(16.8vh);
+  -o-transform: rotate(360deg) translateY(16.8vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-29 {
+  transform: rotate(17.14286deg) translateY(25.2vh);
+  -webkit-transform: rotate(17.14286deg) translateY(25.2vh);
+  -ms-transform: rotate(17.14286deg) translateY(25.2vh);
+  -moz-transform: rotate(17.14286deg) translateY(25.2vh);
+  -o-transform: rotate(17.14286deg) translateY(25.2vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-30 {
+  transform: rotate(34.28571deg) translateY(25.2vh);
+  -webkit-transform: rotate(34.28571deg) translateY(25.2vh);
+  -ms-transform: rotate(34.28571deg) translateY(25.2vh);
+  -moz-transform: rotate(34.28571deg) translateY(25.2vh);
+  -o-transform: rotate(34.28571deg) translateY(25.2vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-31 {
+  transform: rotate(51.42857deg) translateY(25.2vh);
+  -webkit-transform: rotate(51.42857deg) translateY(25.2vh);
+  -ms-transform: rotate(51.42857deg) translateY(25.2vh);
+  -moz-transform: rotate(51.42857deg) translateY(25.2vh);
+  -o-transform: rotate(51.42857deg) translateY(25.2vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-32 {
+  transform: rotate(68.57143deg) translateY(25.2vh);
+  -webkit-transform: rotate(68.57143deg) translateY(25.2vh);
+  -ms-transform: rotate(68.57143deg) translateY(25.2vh);
+  -moz-transform: rotate(68.57143deg) translateY(25.2vh);
+  -o-transform: rotate(68.57143deg) translateY(25.2vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-33 {
+  transform: rotate(85.71429deg) translateY(25.2vh);
+  -webkit-transform: rotate(85.71429deg) translateY(25.2vh);
+  -ms-transform: rotate(85.71429deg) translateY(25.2vh);
+  -moz-transform: rotate(85.71429deg) translateY(25.2vh);
+  -o-transform: rotate(85.71429deg) translateY(25.2vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-34 {
+  transform: rotate(102.85714deg) translateY(25.2vh);
+  -webkit-transform: rotate(102.85714deg) translateY(25.2vh);
+  -ms-transform: rotate(102.85714deg) translateY(25.2vh);
+  -moz-transform: rotate(102.85714deg) translateY(25.2vh);
+  -o-transform: rotate(102.85714deg) translateY(25.2vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-35 {
+  transform: rotate(120deg) translateY(25.2vh);
+  -webkit-transform: rotate(120deg) translateY(25.2vh);
+  -ms-transform: rotate(120deg) translateY(25.2vh);
+  -moz-transform: rotate(120deg) translateY(25.2vh);
+  -o-transform: rotate(120deg) translateY(25.2vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-36 {
+  transform: rotate(137.14286deg) translateY(25.2vh);
+  -webkit-transform: rotate(137.14286deg) translateY(25.2vh);
+  -ms-transform: rotate(137.14286deg) translateY(25.2vh);
+  -moz-transform: rotate(137.14286deg) translateY(25.2vh);
+  -o-transform: rotate(137.14286deg) translateY(25.2vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-37 {
+  transform: rotate(154.28571deg) translateY(25.2vh);
+  -webkit-transform: rotate(154.28571deg) translateY(25.2vh);
+  -ms-transform: rotate(154.28571deg) translateY(25.2vh);
+  -moz-transform: rotate(154.28571deg) translateY(25.2vh);
+  -o-transform: rotate(154.28571deg) translateY(25.2vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-38 {
+  transform: rotate(171.42857deg) translateY(25.2vh);
+  -webkit-transform: rotate(171.42857deg) translateY(25.2vh);
+  -ms-transform: rotate(171.42857deg) translateY(25.2vh);
+  -moz-transform: rotate(171.42857deg) translateY(25.2vh);
+  -o-transform: rotate(171.42857deg) translateY(25.2vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-39 {
+  transform: rotate(188.57143deg) translateY(25.2vh);
+  -webkit-transform: rotate(188.57143deg) translateY(25.2vh);
+  -ms-transform: rotate(188.57143deg) translateY(25.2vh);
+  -moz-transform: rotate(188.57143deg) translateY(25.2vh);
+  -o-transform: rotate(188.57143deg) translateY(25.2vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-40 {
+  transform: rotate(205.71429deg) translateY(25.2vh);
+  -webkit-transform: rotate(205.71429deg) translateY(25.2vh);
+  -ms-transform: rotate(205.71429deg) translateY(25.2vh);
+  -moz-transform: rotate(205.71429deg) translateY(25.2vh);
+  -o-transform: rotate(205.71429deg) translateY(25.2vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-41 {
+  transform: rotate(222.85714deg) translateY(25.2vh);
+  -webkit-transform: rotate(222.85714deg) translateY(25.2vh);
+  -ms-transform: rotate(222.85714deg) translateY(25.2vh);
+  -moz-transform: rotate(222.85714deg) translateY(25.2vh);
+  -o-transform: rotate(222.85714deg) translateY(25.2vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-42 {
+  transform: rotate(240deg) translateY(25.2vh);
+  -webkit-transform: rotate(240deg) translateY(25.2vh);
+  -ms-transform: rotate(240deg) translateY(25.2vh);
+  -moz-transform: rotate(240deg) translateY(25.2vh);
+  -o-transform: rotate(240deg) translateY(25.2vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-43 {
+  transform: rotate(257.14286deg) translateY(25.2vh);
+  -webkit-transform: rotate(257.14286deg) translateY(25.2vh);
+  -ms-transform: rotate(257.14286deg) translateY(25.2vh);
+  -moz-transform: rotate(257.14286deg) translateY(25.2vh);
+  -o-transform: rotate(257.14286deg) translateY(25.2vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-44 {
+  transform: rotate(274.28571deg) translateY(25.2vh);
+  -webkit-transform: rotate(274.28571deg) translateY(25.2vh);
+  -ms-transform: rotate(274.28571deg) translateY(25.2vh);
+  -moz-transform: rotate(274.28571deg) translateY(25.2vh);
+  -o-transform: rotate(274.28571deg) translateY(25.2vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-45 {
+  transform: rotate(291.42857deg) translateY(25.2vh);
+  -webkit-transform: rotate(291.42857deg) translateY(25.2vh);
+  -ms-transform: rotate(291.42857deg) translateY(25.2vh);
+  -moz-transform: rotate(291.42857deg) translateY(25.2vh);
+  -o-transform: rotate(291.42857deg) translateY(25.2vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-46 {
+  transform: rotate(308.57143deg) translateY(25.2vh);
+  -webkit-transform: rotate(308.57143deg) translateY(25.2vh);
+  -ms-transform: rotate(308.57143deg) translateY(25.2vh);
+  -moz-transform: rotate(308.57143deg) translateY(25.2vh);
+  -o-transform: rotate(308.57143deg) translateY(25.2vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-47 {
+  transform: rotate(325.71429deg) translateY(25.2vh);
+  -webkit-transform: rotate(325.71429deg) translateY(25.2vh);
+  -ms-transform: rotate(325.71429deg) translateY(25.2vh);
+  -moz-transform: rotate(325.71429deg) translateY(25.2vh);
+  -o-transform: rotate(325.71429deg) translateY(25.2vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-48 {
+  transform: rotate(342.85714deg) translateY(25.2vh);
+  -webkit-transform: rotate(342.85714deg) translateY(25.2vh);
+  -ms-transform: rotate(342.85714deg) translateY(25.2vh);
+  -moz-transform: rotate(342.85714deg) translateY(25.2vh);
+  -o-transform: rotate(342.85714deg) translateY(25.2vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-49 {
+  transform: rotate(360deg) translateY(25.2vh);
+  -webkit-transform: rotate(360deg) translateY(25.2vh);
+  -ms-transform: rotate(360deg) translateY(25.2vh);
+  -moz-transform: rotate(360deg) translateY(25.2vh);
+  -o-transform: rotate(360deg) translateY(25.2vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-64 {
+  transform: rotate(12.85714deg) translateY(33.6vh);
+  -webkit-transform: rotate(12.85714deg) translateY(33.6vh);
+  -ms-transform: rotate(12.85714deg) translateY(33.6vh);
+  -moz-transform: rotate(12.85714deg) translateY(33.6vh);
+  -o-transform: rotate(12.85714deg) translateY(33.6vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-65 {
+  transform: rotate(25.71429deg) translateY(33.6vh);
+  -webkit-transform: rotate(25.71429deg) translateY(33.6vh);
+  -ms-transform: rotate(25.71429deg) translateY(33.6vh);
+  -moz-transform: rotate(25.71429deg) translateY(33.6vh);
+  -o-transform: rotate(25.71429deg) translateY(33.6vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-66 {
+  transform: rotate(38.57143deg) translateY(33.6vh);
+  -webkit-transform: rotate(38.57143deg) translateY(33.6vh);
+  -ms-transform: rotate(38.57143deg) translateY(33.6vh);
+  -moz-transform: rotate(38.57143deg) translateY(33.6vh);
+  -o-transform: rotate(38.57143deg) translateY(33.6vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-67 {
+  transform: rotate(51.42857deg) translateY(33.6vh);
+  -webkit-transform: rotate(51.42857deg) translateY(33.6vh);
+  -ms-transform: rotate(51.42857deg) translateY(33.6vh);
+  -moz-transform: rotate(51.42857deg) translateY(33.6vh);
+  -o-transform: rotate(51.42857deg) translateY(33.6vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-68 {
+  transform: rotate(64.28571deg) translateY(33.6vh);
+  -webkit-transform: rotate(64.28571deg) translateY(33.6vh);
+  -ms-transform: rotate(64.28571deg) translateY(33.6vh);
+  -moz-transform: rotate(64.28571deg) translateY(33.6vh);
+  -o-transform: rotate(64.28571deg) translateY(33.6vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-69 {
+  transform: rotate(77.14286deg) translateY(33.6vh);
+  -webkit-transform: rotate(77.14286deg) translateY(33.6vh);
+  -ms-transform: rotate(77.14286deg) translateY(33.6vh);
+  -moz-transform: rotate(77.14286deg) translateY(33.6vh);
+  -o-transform: rotate(77.14286deg) translateY(33.6vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-70 {
+  transform: rotate(90deg) translateY(33.6vh);
+  -webkit-transform: rotate(90deg) translateY(33.6vh);
+  -ms-transform: rotate(90deg) translateY(33.6vh);
+  -moz-transform: rotate(90deg) translateY(33.6vh);
+  -o-transform: rotate(90deg) translateY(33.6vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-71 {
+  transform: rotate(102.85714deg) translateY(33.6vh);
+  -webkit-transform: rotate(102.85714deg) translateY(33.6vh);
+  -ms-transform: rotate(102.85714deg) translateY(33.6vh);
+  -moz-transform: rotate(102.85714deg) translateY(33.6vh);
+  -o-transform: rotate(102.85714deg) translateY(33.6vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-72 {
+  transform: rotate(115.71429deg) translateY(33.6vh);
+  -webkit-transform: rotate(115.71429deg) translateY(33.6vh);
+  -ms-transform: rotate(115.71429deg) translateY(33.6vh);
+  -moz-transform: rotate(115.71429deg) translateY(33.6vh);
+  -o-transform: rotate(115.71429deg) translateY(33.6vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-73 {
+  transform: rotate(128.57143deg) translateY(33.6vh);
+  -webkit-transform: rotate(128.57143deg) translateY(33.6vh);
+  -ms-transform: rotate(128.57143deg) translateY(33.6vh);
+  -moz-transform: rotate(128.57143deg) translateY(33.6vh);
+  -o-transform: rotate(128.57143deg) translateY(33.6vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-74 {
+  transform: rotate(141.42857deg) translateY(33.6vh);
+  -webkit-transform: rotate(141.42857deg) translateY(33.6vh);
+  -ms-transform: rotate(141.42857deg) translateY(33.6vh);
+  -moz-transform: rotate(141.42857deg) translateY(33.6vh);
+  -o-transform: rotate(141.42857deg) translateY(33.6vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-75 {
+  transform: rotate(154.28571deg) translateY(33.6vh);
+  -webkit-transform: rotate(154.28571deg) translateY(33.6vh);
+  -ms-transform: rotate(154.28571deg) translateY(33.6vh);
+  -moz-transform: rotate(154.28571deg) translateY(33.6vh);
+  -o-transform: rotate(154.28571deg) translateY(33.6vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-76 {
+  transform: rotate(167.14286deg) translateY(33.6vh);
+  -webkit-transform: rotate(167.14286deg) translateY(33.6vh);
+  -ms-transform: rotate(167.14286deg) translateY(33.6vh);
+  -moz-transform: rotate(167.14286deg) translateY(33.6vh);
+  -o-transform: rotate(167.14286deg) translateY(33.6vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-77 {
+  transform: rotate(180deg) translateY(33.6vh);
+  -webkit-transform: rotate(180deg) translateY(33.6vh);
+  -ms-transform: rotate(180deg) translateY(33.6vh);
+  -moz-transform: rotate(180deg) translateY(33.6vh);
+  -o-transform: rotate(180deg) translateY(33.6vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-78 {
+  transform: rotate(192.85714deg) translateY(33.6vh);
+  -webkit-transform: rotate(192.85714deg) translateY(33.6vh);
+  -ms-transform: rotate(192.85714deg) translateY(33.6vh);
+  -moz-transform: rotate(192.85714deg) translateY(33.6vh);
+  -o-transform: rotate(192.85714deg) translateY(33.6vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-79 {
+  transform: rotate(205.71429deg) translateY(33.6vh);
+  -webkit-transform: rotate(205.71429deg) translateY(33.6vh);
+  -ms-transform: rotate(205.71429deg) translateY(33.6vh);
+  -moz-transform: rotate(205.71429deg) translateY(33.6vh);
+  -o-transform: rotate(205.71429deg) translateY(33.6vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-80 {
+  transform: rotate(218.57143deg) translateY(33.6vh);
+  -webkit-transform: rotate(218.57143deg) translateY(33.6vh);
+  -ms-transform: rotate(218.57143deg) translateY(33.6vh);
+  -moz-transform: rotate(218.57143deg) translateY(33.6vh);
+  -o-transform: rotate(218.57143deg) translateY(33.6vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-81 {
+  transform: rotate(231.42857deg) translateY(33.6vh);
+  -webkit-transform: rotate(231.42857deg) translateY(33.6vh);
+  -ms-transform: rotate(231.42857deg) translateY(33.6vh);
+  -moz-transform: rotate(231.42857deg) translateY(33.6vh);
+  -o-transform: rotate(231.42857deg) translateY(33.6vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-82 {
+  transform: rotate(244.28571deg) translateY(33.6vh);
+  -webkit-transform: rotate(244.28571deg) translateY(33.6vh);
+  -ms-transform: rotate(244.28571deg) translateY(33.6vh);
+  -moz-transform: rotate(244.28571deg) translateY(33.6vh);
+  -o-transform: rotate(244.28571deg) translateY(33.6vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-83 {
+  transform: rotate(257.14286deg) translateY(33.6vh);
+  -webkit-transform: rotate(257.14286deg) translateY(33.6vh);
+  -ms-transform: rotate(257.14286deg) translateY(33.6vh);
+  -moz-transform: rotate(257.14286deg) translateY(33.6vh);
+  -o-transform: rotate(257.14286deg) translateY(33.6vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-84 {
+  transform: rotate(270deg) translateY(33.6vh);
+  -webkit-transform: rotate(270deg) translateY(33.6vh);
+  -ms-transform: rotate(270deg) translateY(33.6vh);
+  -moz-transform: rotate(270deg) translateY(33.6vh);
+  -o-transform: rotate(270deg) translateY(33.6vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-85 {
+  transform: rotate(282.85714deg) translateY(33.6vh);
+  -webkit-transform: rotate(282.85714deg) translateY(33.6vh);
+  -ms-transform: rotate(282.85714deg) translateY(33.6vh);
+  -moz-transform: rotate(282.85714deg) translateY(33.6vh);
+  -o-transform: rotate(282.85714deg) translateY(33.6vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-86 {
+  transform: rotate(295.71429deg) translateY(33.6vh);
+  -webkit-transform: rotate(295.71429deg) translateY(33.6vh);
+  -ms-transform: rotate(295.71429deg) translateY(33.6vh);
+  -moz-transform: rotate(295.71429deg) translateY(33.6vh);
+  -o-transform: rotate(295.71429deg) translateY(33.6vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-87 {
+  transform: rotate(308.57143deg) translateY(33.6vh);
+  -webkit-transform: rotate(308.57143deg) translateY(33.6vh);
+  -ms-transform: rotate(308.57143deg) translateY(33.6vh);
+  -moz-transform: rotate(308.57143deg) translateY(33.6vh);
+  -o-transform: rotate(308.57143deg) translateY(33.6vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-88 {
+  transform: rotate(321.42857deg) translateY(33.6vh);
+  -webkit-transform: rotate(321.42857deg) translateY(33.6vh);
+  -ms-transform: rotate(321.42857deg) translateY(33.6vh);
+  -moz-transform: rotate(321.42857deg) translateY(33.6vh);
+  -o-transform: rotate(321.42857deg) translateY(33.6vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-89 {
+  transform: rotate(334.28571deg) translateY(33.6vh);
+  -webkit-transform: rotate(334.28571deg) translateY(33.6vh);
+  -ms-transform: rotate(334.28571deg) translateY(33.6vh);
+  -moz-transform: rotate(334.28571deg) translateY(33.6vh);
+  -o-transform: rotate(334.28571deg) translateY(33.6vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-90 {
+  transform: rotate(347.14286deg) translateY(33.6vh);
+  -webkit-transform: rotate(347.14286deg) translateY(33.6vh);
+  -ms-transform: rotate(347.14286deg) translateY(33.6vh);
+  -moz-transform: rotate(347.14286deg) translateY(33.6vh);
+  -o-transform: rotate(347.14286deg) translateY(33.6vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-91 {
+  transform: rotate(360deg) translateY(33.6vh);
+  -webkit-transform: rotate(360deg) translateY(33.6vh);
+  -ms-transform: rotate(360deg) translateY(33.6vh);
+  -moz-transform: rotate(360deg) translateY(33.6vh);
+  -o-transform: rotate(360deg) translateY(33.6vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-113 {
+  transform: rotate(10.28571deg) translateY(42vh);
+  -webkit-transform: rotate(10.28571deg) translateY(42vh);
+  -ms-transform: rotate(10.28571deg) translateY(42vh);
+  -moz-transform: rotate(10.28571deg) translateY(42vh);
+  -o-transform: rotate(10.28571deg) translateY(42vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-114 {
+  transform: rotate(20.57143deg) translateY(42vh);
+  -webkit-transform: rotate(20.57143deg) translateY(42vh);
+  -ms-transform: rotate(20.57143deg) translateY(42vh);
+  -moz-transform: rotate(20.57143deg) translateY(42vh);
+  -o-transform: rotate(20.57143deg) translateY(42vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-115 {
+  transform: rotate(30.85714deg) translateY(42vh);
+  -webkit-transform: rotate(30.85714deg) translateY(42vh);
+  -ms-transform: rotate(30.85714deg) translateY(42vh);
+  -moz-transform: rotate(30.85714deg) translateY(42vh);
+  -o-transform: rotate(30.85714deg) translateY(42vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-116 {
+  transform: rotate(41.14286deg) translateY(42vh);
+  -webkit-transform: rotate(41.14286deg) translateY(42vh);
+  -ms-transform: rotate(41.14286deg) translateY(42vh);
+  -moz-transform: rotate(41.14286deg) translateY(42vh);
+  -o-transform: rotate(41.14286deg) translateY(42vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-117 {
+  transform: rotate(51.42857deg) translateY(42vh);
+  -webkit-transform: rotate(51.42857deg) translateY(42vh);
+  -ms-transform: rotate(51.42857deg) translateY(42vh);
+  -moz-transform: rotate(51.42857deg) translateY(42vh);
+  -o-transform: rotate(51.42857deg) translateY(42vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-118 {
+  transform: rotate(61.71429deg) translateY(42vh);
+  -webkit-transform: rotate(61.71429deg) translateY(42vh);
+  -ms-transform: rotate(61.71429deg) translateY(42vh);
+  -moz-transform: rotate(61.71429deg) translateY(42vh);
+  -o-transform: rotate(61.71429deg) translateY(42vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-119 {
+  transform: rotate(72deg) translateY(42vh);
+  -webkit-transform: rotate(72deg) translateY(42vh);
+  -ms-transform: rotate(72deg) translateY(42vh);
+  -moz-transform: rotate(72deg) translateY(42vh);
+  -o-transform: rotate(72deg) translateY(42vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-120 {
+  transform: rotate(82.28571deg) translateY(42vh);
+  -webkit-transform: rotate(82.28571deg) translateY(42vh);
+  -ms-transform: rotate(82.28571deg) translateY(42vh);
+  -moz-transform: rotate(82.28571deg) translateY(42vh);
+  -o-transform: rotate(82.28571deg) translateY(42vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-121 {
+  transform: rotate(92.57143deg) translateY(42vh);
+  -webkit-transform: rotate(92.57143deg) translateY(42vh);
+  -ms-transform: rotate(92.57143deg) translateY(42vh);
+  -moz-transform: rotate(92.57143deg) translateY(42vh);
+  -o-transform: rotate(92.57143deg) translateY(42vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-122 {
+  transform: rotate(102.85714deg) translateY(42vh);
+  -webkit-transform: rotate(102.85714deg) translateY(42vh);
+  -ms-transform: rotate(102.85714deg) translateY(42vh);
+  -moz-transform: rotate(102.85714deg) translateY(42vh);
+  -o-transform: rotate(102.85714deg) translateY(42vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-123 {
+  transform: rotate(113.14286deg) translateY(42vh);
+  -webkit-transform: rotate(113.14286deg) translateY(42vh);
+  -ms-transform: rotate(113.14286deg) translateY(42vh);
+  -moz-transform: rotate(113.14286deg) translateY(42vh);
+  -o-transform: rotate(113.14286deg) translateY(42vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-124 {
+  transform: rotate(123.42857deg) translateY(42vh);
+  -webkit-transform: rotate(123.42857deg) translateY(42vh);
+  -ms-transform: rotate(123.42857deg) translateY(42vh);
+  -moz-transform: rotate(123.42857deg) translateY(42vh);
+  -o-transform: rotate(123.42857deg) translateY(42vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-125 {
+  transform: rotate(133.71429deg) translateY(42vh);
+  -webkit-transform: rotate(133.71429deg) translateY(42vh);
+  -ms-transform: rotate(133.71429deg) translateY(42vh);
+  -moz-transform: rotate(133.71429deg) translateY(42vh);
+  -o-transform: rotate(133.71429deg) translateY(42vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-126 {
+  transform: rotate(144deg) translateY(42vh);
+  -webkit-transform: rotate(144deg) translateY(42vh);
+  -ms-transform: rotate(144deg) translateY(42vh);
+  -moz-transform: rotate(144deg) translateY(42vh);
+  -o-transform: rotate(144deg) translateY(42vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-127 {
+  transform: rotate(154.28571deg) translateY(42vh);
+  -webkit-transform: rotate(154.28571deg) translateY(42vh);
+  -ms-transform: rotate(154.28571deg) translateY(42vh);
+  -moz-transform: rotate(154.28571deg) translateY(42vh);
+  -o-transform: rotate(154.28571deg) translateY(42vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-128 {
+  transform: rotate(164.57143deg) translateY(42vh);
+  -webkit-transform: rotate(164.57143deg) translateY(42vh);
+  -ms-transform: rotate(164.57143deg) translateY(42vh);
+  -moz-transform: rotate(164.57143deg) translateY(42vh);
+  -o-transform: rotate(164.57143deg) translateY(42vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-129 {
+  transform: rotate(174.85714deg) translateY(42vh);
+  -webkit-transform: rotate(174.85714deg) translateY(42vh);
+  -ms-transform: rotate(174.85714deg) translateY(42vh);
+  -moz-transform: rotate(174.85714deg) translateY(42vh);
+  -o-transform: rotate(174.85714deg) translateY(42vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-130 {
+  transform: rotate(185.14286deg) translateY(42vh);
+  -webkit-transform: rotate(185.14286deg) translateY(42vh);
+  -ms-transform: rotate(185.14286deg) translateY(42vh);
+  -moz-transform: rotate(185.14286deg) translateY(42vh);
+  -o-transform: rotate(185.14286deg) translateY(42vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-131 {
+  transform: rotate(195.42857deg) translateY(42vh);
+  -webkit-transform: rotate(195.42857deg) translateY(42vh);
+  -ms-transform: rotate(195.42857deg) translateY(42vh);
+  -moz-transform: rotate(195.42857deg) translateY(42vh);
+  -o-transform: rotate(195.42857deg) translateY(42vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-132 {
+  transform: rotate(205.71429deg) translateY(42vh);
+  -webkit-transform: rotate(205.71429deg) translateY(42vh);
+  -ms-transform: rotate(205.71429deg) translateY(42vh);
+  -moz-transform: rotate(205.71429deg) translateY(42vh);
+  -o-transform: rotate(205.71429deg) translateY(42vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-133 {
+  transform: rotate(216.0deg) translateY(42vh);
+  -webkit-transform: rotate(216.0deg) translateY(42vh);
+  -ms-transform: rotate(216.0deg) translateY(42vh);
+  -moz-transform: rotate(216.0deg) translateY(42vh);
+  -o-transform: rotate(216.0deg) translateY(42vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-134 {
+  transform: rotate(226.28571deg) translateY(42vh);
+  -webkit-transform: rotate(226.28571deg) translateY(42vh);
+  -ms-transform: rotate(226.28571deg) translateY(42vh);
+  -moz-transform: rotate(226.28571deg) translateY(42vh);
+  -o-transform: rotate(226.28571deg) translateY(42vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-135 {
+  transform: rotate(236.57143deg) translateY(42vh);
+  -webkit-transform: rotate(236.57143deg) translateY(42vh);
+  -ms-transform: rotate(236.57143deg) translateY(42vh);
+  -moz-transform: rotate(236.57143deg) translateY(42vh);
+  -o-transform: rotate(236.57143deg) translateY(42vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-136 {
+  transform: rotate(246.85714deg) translateY(42vh);
+  -webkit-transform: rotate(246.85714deg) translateY(42vh);
+  -ms-transform: rotate(246.85714deg) translateY(42vh);
+  -moz-transform: rotate(246.85714deg) translateY(42vh);
+  -o-transform: rotate(246.85714deg) translateY(42vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-137 {
+  transform: rotate(257.14286deg) translateY(42vh);
+  -webkit-transform: rotate(257.14286deg) translateY(42vh);
+  -ms-transform: rotate(257.14286deg) translateY(42vh);
+  -moz-transform: rotate(257.14286deg) translateY(42vh);
+  -o-transform: rotate(257.14286deg) translateY(42vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-138 {
+  transform: rotate(267.42857deg) translateY(42vh);
+  -webkit-transform: rotate(267.42857deg) translateY(42vh);
+  -ms-transform: rotate(267.42857deg) translateY(42vh);
+  -moz-transform: rotate(267.42857deg) translateY(42vh);
+  -o-transform: rotate(267.42857deg) translateY(42vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-139 {
+  transform: rotate(277.71429deg) translateY(42vh);
+  -webkit-transform: rotate(277.71429deg) translateY(42vh);
+  -ms-transform: rotate(277.71429deg) translateY(42vh);
+  -moz-transform: rotate(277.71429deg) translateY(42vh);
+  -o-transform: rotate(277.71429deg) translateY(42vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-140 {
+  transform: rotate(288deg) translateY(42vh);
+  -webkit-transform: rotate(288deg) translateY(42vh);
+  -ms-transform: rotate(288deg) translateY(42vh);
+  -moz-transform: rotate(288deg) translateY(42vh);
+  -o-transform: rotate(288deg) translateY(42vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-141 {
+  transform: rotate(298.28571deg) translateY(42vh);
+  -webkit-transform: rotate(298.28571deg) translateY(42vh);
+  -ms-transform: rotate(298.28571deg) translateY(42vh);
+  -moz-transform: rotate(298.28571deg) translateY(42vh);
+  -o-transform: rotate(298.28571deg) translateY(42vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-142 {
+  transform: rotate(308.57143deg) translateY(42vh);
+  -webkit-transform: rotate(308.57143deg) translateY(42vh);
+  -ms-transform: rotate(308.57143deg) translateY(42vh);
+  -moz-transform: rotate(308.57143deg) translateY(42vh);
+  -o-transform: rotate(308.57143deg) translateY(42vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-143 {
+  transform: rotate(318.85714deg) translateY(42vh);
+  -webkit-transform: rotate(318.85714deg) translateY(42vh);
+  -ms-transform: rotate(318.85714deg) translateY(42vh);
+  -moz-transform: rotate(318.85714deg) translateY(42vh);
+  -o-transform: rotate(318.85714deg) translateY(42vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-144 {
+  transform: rotate(329.14286deg) translateY(42vh);
+  -webkit-transform: rotate(329.14286deg) translateY(42vh);
+  -ms-transform: rotate(329.14286deg) translateY(42vh);
+  -moz-transform: rotate(329.14286deg) translateY(42vh);
+  -o-transform: rotate(329.14286deg) translateY(42vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-145 {
+  transform: rotate(339.42857deg) translateY(42vh);
+  -webkit-transform: rotate(339.42857deg) translateY(42vh);
+  -ms-transform: rotate(339.42857deg) translateY(42vh);
+  -moz-transform: rotate(339.42857deg) translateY(42vh);
+  -o-transform: rotate(339.42857deg) translateY(42vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-146 {
+  transform: rotate(349.71429deg) translateY(42vh);
+  -webkit-transform: rotate(349.71429deg) translateY(42vh);
+  -ms-transform: rotate(349.71429deg) translateY(42vh);
+  -moz-transform: rotate(349.71429deg) translateY(42vh);
+  -o-transform: rotate(349.71429deg) translateY(42vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-147 {
+  transform: rotate(360deg) translateY(42vh);
+  -webkit-transform: rotate(360deg) translateY(42vh);
+  -ms-transform: rotate(360deg) translateY(42vh);
+  -moz-transform: rotate(360deg) translateY(42vh);
+  -o-transform: rotate(360deg) translateY(42vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-176 {
+  transform: rotate(8.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(8.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(8.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(8.57143deg) translateY(50.4vh);
+  -o-transform: rotate(8.57143deg) translateY(50.4vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-177 {
+  transform: rotate(17.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(17.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(17.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(17.14286deg) translateY(50.4vh);
+  -o-transform: rotate(17.14286deg) translateY(50.4vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-178 {
+  transform: rotate(25.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(25.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(25.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(25.71429deg) translateY(50.4vh);
+  -o-transform: rotate(25.71429deg) translateY(50.4vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-179 {
+  transform: rotate(34.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(34.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(34.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(34.28571deg) translateY(50.4vh);
+  -o-transform: rotate(34.28571deg) translateY(50.4vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-180 {
+  transform: rotate(42.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(42.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(42.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(42.85714deg) translateY(50.4vh);
+  -o-transform: rotate(42.85714deg) translateY(50.4vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-181 {
+  transform: rotate(51.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(51.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(51.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(51.42857deg) translateY(50.4vh);
+  -o-transform: rotate(51.42857deg) translateY(50.4vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-182 {
+  transform: rotate(60deg) translateY(50.4vh);
+  -webkit-transform: rotate(60deg) translateY(50.4vh);
+  -ms-transform: rotate(60deg) translateY(50.4vh);
+  -moz-transform: rotate(60deg) translateY(50.4vh);
+  -o-transform: rotate(60deg) translateY(50.4vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-183 {
+  transform: rotate(68.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(68.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(68.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(68.57143deg) translateY(50.4vh);
+  -o-transform: rotate(68.57143deg) translateY(50.4vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-184 {
+  transform: rotate(77.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(77.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(77.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(77.14286deg) translateY(50.4vh);
+  -o-transform: rotate(77.14286deg) translateY(50.4vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-185 {
+  transform: rotate(85.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(85.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(85.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(85.71429deg) translateY(50.4vh);
+  -o-transform: rotate(85.71429deg) translateY(50.4vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-186 {
+  transform: rotate(94.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(94.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(94.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(94.28571deg) translateY(50.4vh);
+  -o-transform: rotate(94.28571deg) translateY(50.4vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-187 {
+  transform: rotate(102.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(102.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(102.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(102.85714deg) translateY(50.4vh);
+  -o-transform: rotate(102.85714deg) translateY(50.4vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-188 {
+  transform: rotate(111.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(111.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(111.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(111.42857deg) translateY(50.4vh);
+  -o-transform: rotate(111.42857deg) translateY(50.4vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-189 {
+  transform: rotate(120deg) translateY(50.4vh);
+  -webkit-transform: rotate(120deg) translateY(50.4vh);
+  -ms-transform: rotate(120deg) translateY(50.4vh);
+  -moz-transform: rotate(120deg) translateY(50.4vh);
+  -o-transform: rotate(120deg) translateY(50.4vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-190 {
+  transform: rotate(128.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(128.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(128.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(128.57143deg) translateY(50.4vh);
+  -o-transform: rotate(128.57143deg) translateY(50.4vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-191 {
+  transform: rotate(137.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(137.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(137.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(137.14286deg) translateY(50.4vh);
+  -o-transform: rotate(137.14286deg) translateY(50.4vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-192 {
+  transform: rotate(145.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(145.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(145.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(145.71429deg) translateY(50.4vh);
+  -o-transform: rotate(145.71429deg) translateY(50.4vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-193 {
+  transform: rotate(154.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(154.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(154.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(154.28571deg) translateY(50.4vh);
+  -o-transform: rotate(154.28571deg) translateY(50.4vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-194 {
+  transform: rotate(162.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(162.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(162.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(162.85714deg) translateY(50.4vh);
+  -o-transform: rotate(162.85714deg) translateY(50.4vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-195 {
+  transform: rotate(171.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(171.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(171.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(171.42857deg) translateY(50.4vh);
+  -o-transform: rotate(171.42857deg) translateY(50.4vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-196 {
+  transform: rotate(180deg) translateY(50.4vh);
+  -webkit-transform: rotate(180deg) translateY(50.4vh);
+  -ms-transform: rotate(180deg) translateY(50.4vh);
+  -moz-transform: rotate(180deg) translateY(50.4vh);
+  -o-transform: rotate(180deg) translateY(50.4vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-197 {
+  transform: rotate(188.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(188.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(188.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(188.57143deg) translateY(50.4vh);
+  -o-transform: rotate(188.57143deg) translateY(50.4vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-198 {
+  transform: rotate(197.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(197.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(197.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(197.14286deg) translateY(50.4vh);
+  -o-transform: rotate(197.14286deg) translateY(50.4vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-199 {
+  transform: rotate(205.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(205.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(205.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(205.71429deg) translateY(50.4vh);
+  -o-transform: rotate(205.71429deg) translateY(50.4vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+.boxs .box-200 {
+  transform: rotate(214.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(214.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(214.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(214.28571deg) translateY(50.4vh);
+  -o-transform: rotate(214.28571deg) translateY(50.4vh);
+  background: #eacd95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 205, 149, 0.2);
+}
+
+.boxs .box-201 {
+  transform: rotate(222.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(222.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(222.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(222.85714deg) translateY(50.4vh);
+  -o-transform: rotate(222.85714deg) translateY(50.4vh);
+  background: #eaea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 234, 149, 0.2);
+}
+
+.boxs .box-202 {
+  transform: rotate(231.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(231.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(231.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(231.42857deg) translateY(50.4vh);
+  -o-transform: rotate(231.42857deg) translateY(50.4vh);
+  background: #cdea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 234, 149, 0.2);
+}
+
+.boxs .box-203 {
+  transform: rotate(240deg) translateY(50.4vh);
+  -webkit-transform: rotate(240deg) translateY(50.4vh);
+  -ms-transform: rotate(240deg) translateY(50.4vh);
+  -moz-transform: rotate(240deg) translateY(50.4vh);
+  -o-transform: rotate(240deg) translateY(50.4vh);
+  background: #b1ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 234, 149, 0.2);
+}
+
+.boxs .box-204 {
+  transform: rotate(248.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(248.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(248.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(248.57143deg) translateY(50.4vh);
+  -o-transform: rotate(248.57143deg) translateY(50.4vh);
+  background: #95ea95;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 149, 0.2);
+}
+
+.boxs .box-205 {
+  transform: rotate(257.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(257.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(257.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(257.14286deg) translateY(50.4vh);
+  -o-transform: rotate(257.14286deg) translateY(50.4vh);
+  background: #95eab1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 177, 0.2);
+}
+
+.boxs .box-206 {
+  transform: rotate(265.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(265.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(265.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(265.71429deg) translateY(50.4vh);
+  -o-transform: rotate(265.71429deg) translateY(50.4vh);
+  background: #95eacd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 205, 0.2);
+}
+
+.boxs .box-207 {
+  transform: rotate(274.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(274.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(274.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(274.28571deg) translateY(50.4vh);
+  -o-transform: rotate(274.28571deg) translateY(50.4vh);
+  background: #95eaea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 234, 234, 0.2);
+}
+
+.boxs .box-208 {
+  transform: rotate(282.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(282.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(282.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(282.85714deg) translateY(50.4vh);
+  -o-transform: rotate(282.85714deg) translateY(50.4vh);
+  background: #95cdea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 205, 234, 0.2);
+}
+
+.boxs .box-209 {
+  transform: rotate(291.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(291.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(291.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(291.42857deg) translateY(50.4vh);
+  -o-transform: rotate(291.42857deg) translateY(50.4vh);
+  background: #95b1ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 177, 234, 0.2);
+}
+
+.boxs .box-210 {
+  transform: rotate(300deg) translateY(50.4vh);
+  -webkit-transform: rotate(300deg) translateY(50.4vh);
+  -ms-transform: rotate(300deg) translateY(50.4vh);
+  -moz-transform: rotate(300deg) translateY(50.4vh);
+  -o-transform: rotate(300deg) translateY(50.4vh);
+  background: #9595ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(149, 149, 234, 0.2);
+}
+
+.boxs .box-211 {
+  transform: rotate(308.57143deg) translateY(50.4vh);
+  -webkit-transform: rotate(308.57143deg) translateY(50.4vh);
+  -ms-transform: rotate(308.57143deg) translateY(50.4vh);
+  -moz-transform: rotate(308.57143deg) translateY(50.4vh);
+  -o-transform: rotate(308.57143deg) translateY(50.4vh);
+  background: #b195ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(177, 149, 234, 0.2);
+}
+
+.boxs .box-212 {
+  transform: rotate(317.14286deg) translateY(50.4vh);
+  -webkit-transform: rotate(317.14286deg) translateY(50.4vh);
+  -ms-transform: rotate(317.14286deg) translateY(50.4vh);
+  -moz-transform: rotate(317.14286deg) translateY(50.4vh);
+  -o-transform: rotate(317.14286deg) translateY(50.4vh);
+  background: #cd95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(205, 149, 234, 0.2);
+}
+
+.boxs .box-213 {
+  transform: rotate(325.71429deg) translateY(50.4vh);
+  -webkit-transform: rotate(325.71429deg) translateY(50.4vh);
+  -ms-transform: rotate(325.71429deg) translateY(50.4vh);
+  -moz-transform: rotate(325.71429deg) translateY(50.4vh);
+  -o-transform: rotate(325.71429deg) translateY(50.4vh);
+  background: #ea95ea;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 234, 0.2);
+}
+
+.boxs .box-214 {
+  transform: rotate(334.28571deg) translateY(50.4vh);
+  -webkit-transform: rotate(334.28571deg) translateY(50.4vh);
+  -ms-transform: rotate(334.28571deg) translateY(50.4vh);
+  -moz-transform: rotate(334.28571deg) translateY(50.4vh);
+  -o-transform: rotate(334.28571deg) translateY(50.4vh);
+  background: #ea95cd;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 205, 0.2);
+}
+
+.boxs .box-215 {
+  transform: rotate(342.85714deg) translateY(50.4vh);
+  -webkit-transform: rotate(342.85714deg) translateY(50.4vh);
+  -ms-transform: rotate(342.85714deg) translateY(50.4vh);
+  -moz-transform: rotate(342.85714deg) translateY(50.4vh);
+  -o-transform: rotate(342.85714deg) translateY(50.4vh);
+  background: #ea95b1;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 177, 0.2);
+}
+
+.boxs .box-216 {
+  transform: rotate(351.42857deg) translateY(50.4vh);
+  -webkit-transform: rotate(351.42857deg) translateY(50.4vh);
+  -ms-transform: rotate(351.42857deg) translateY(50.4vh);
+  -moz-transform: rotate(351.42857deg) translateY(50.4vh);
+  -o-transform: rotate(351.42857deg) translateY(50.4vh);
+  background: #ea9595;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 149, 149, 0.2);
+}
+
+.boxs .box-217 {
+  transform: rotate(360deg) translateY(50.4vh);
+  -webkit-transform: rotate(360deg) translateY(50.4vh);
+  -ms-transform: rotate(360deg) translateY(50.4vh);
+  -moz-transform: rotate(360deg) translateY(50.4vh);
+  -o-transform: rotate(360deg) translateY(50.4vh);
+  background: #eab195;
+  animation: rad 1.75s infinite;
+  -webkit-animation: rad 1.75s infinite;
+  -ms-animation: rad 1.75s infinite;
+  -moz-animation: rad 1.75s infinite;
+  -o-animation: rad 1.75s infinite;
+  box-shadow: 1vh 3vh 3px rgba(234, 177, 149, 0.2);
+}
+
+@keyframes rad {
+  0% {
+    border-radius: 50px 0px 0px 0px;
+  }
+  25% {
+    border-radius: 0px 50px 0px 0px;
+  }
+  50% {
+    border-radius: 0px 0px 50px 0px;
+  }
+  75% {
+    border-radius: 0px 0px 0px 50px;
+  }
+  100% {
+    border-radius: 50px 0px 0px 0px;
+  }
+}
+@-webkit-keyframes rad {
+  0% {
+    border-radius: 50px 0px 0px 0px;
+  }
+  25% {
+    border-radius: 0px 50px 0px 0px;
+  }
+  50% {
+    border-radius: 0px 0px 50px 0px;
+  }
+  75% {
+    border-radius: 0px 0px 0px 50px;
+  }
+  100% {
+    border-radius: 50px 0px 0px 0px;
+  }
+}
+@-ms-keyframes rad {
+  0% {
+    border-radius: 50px 0px 0px 0px;
+  }
+  25% {
+    border-radius: 0px 50px 0px 0px;
+  }
+  50% {
+    border-radius: 0px 0px 50px 0px;
+  }
+  75% {
+    border-radius: 0px 0px 0px 50px;
+  }
+  100% {
+    border-radius: 50px 0px 0px 0px;
+  }
+}
+@-o-keyframes rad {
+  0% {
+    border-radius: 50px 0px 0px 0px;
+  }
+  25% {
+    border-radius: 0px 50px 0px 0px;
+  }
+  50% {
+    border-radius: 0px 0px 50px 0px;
+  }
+  75% {
+    border-radius: 0px 0px 0px 50px;
+  }
+  100% {
+    border-radius: 50px 0px 0px 0px;
+  }
+}
+@-moz-keyframes rad {
+  0% {
+    border-radius: 50px 0px 0px 0px;
+  }
+  25% {
+    border-radius: 0px 50px 0px 0px;
+  }
+  50% {
+    border-radius: 0px 0px 50px 0px;
+  }
+  75% {
+    border-radius: 0px 0px 0px 50px;
+  }
+  100% {
+    border-radius: 50px 0px 0px 0px;
+  }
+}
